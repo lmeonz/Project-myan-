@@ -31,3 +31,61 @@ google-services.json
 
 # Android Profiling
 *.hprof
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+/* Police moderne */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #6a11cb, #2575fc); /* Dégradé violet -> bleu */
+  color: #f0f0f0; /* Texte clair */
+  margin: 30px;
+}
+
+/* Titre principal */
+h1 {
+  color: #00ff99; /* Vert vif */
+  text-align: center;
+  font-size: 3em;
+  text-shadow: 2px 2px 5px #000000aa;
+}
+
+/* Paragraphes */
+p {
+  color: #d0e6f7; /* Bleu clair */
+  font-size: 1.2em;
+  line-height: 1.5;
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+/* Liens */
+a {
+  color: #ff66cc; /* Rose/violet vif */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #00ff99; /* Vert vif au survol */
+  text-decoration: underline;
+}
+
+/* Boutons */
+button {
+  background-color: #2575fc; /* Bleu vif */
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(37, 117, 252, 0.5);
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #6a11cb; /* Violet vif */
+}
